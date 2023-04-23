@@ -1,0 +1,30 @@
+启动先打开虚拟机因为有nacos。
+idea开启前端和后端。
+也开启本地nginx！！右键管理员 （勿移动前端门户文件，已在nginx内配置路径）
+还要打开内网穿透 生成二维码
+使用MuMu模拟器模拟支付宝支付
+打开任务调度中心，开启课程发布任务和媒资处理任务。
+
+虚拟机账号 root 密码 centos
+systemctl start docker 
+sh /data/soft/restart.sh
+
+xxl-job 账号admin 密码 123456 （8088）
+
+minio账号minioadmin 密码minioadmin  （9001）
+
+Naocs账号nacos 密码nacos （8848）
+
+数据库账号 root 密码 mysql
+
+远程仓库 http://192.168.101.65:10880/xuecheng-plus-group101/xuecheng-plus-group
+账号 gogs 密码 gogs
+
+redis 密码redis
+
+登陆界面 账号t1 密码111111
+
+RabbitMQ 账号 guest 密码guest （15672）
+
+
+
